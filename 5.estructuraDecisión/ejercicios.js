@@ -24,19 +24,14 @@ default:
 console.log("Error number")
 }
 
-Letras="e"
+//<------------------------------------------------->
+Letras="a"
 switch(Letras){
-case "a":
+case "a":case "e":case "i":case "o":case "u":
 console.log("Es vocal")
 break
-case "b":
+case "z":
 console.log("No es vocal")
-break
-case "c":
-console.log("No es vocal")
-break
-case "e":
-console.log("Es vocal")
 break
 default:
 console.log("Error number")
