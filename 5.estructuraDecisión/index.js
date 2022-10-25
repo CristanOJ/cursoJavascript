@@ -1,0 +1,2 @@
+//En cualquier lenguaje de programación, el código necesita realizar decisiones y llevar a cabo diferentes acciones acordes dependiendo de distintas entradas. 7
+//Por ejemplo, en un juego, si el el numero de vidas del jugador es 0, entonces se termina el juego.
