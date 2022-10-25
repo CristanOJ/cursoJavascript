@@ -25,10 +25,10 @@ console.log("Error number")
 }
 
 //<------------------------------------------------->
-Letras="a"
+Letras="e"
 switch(Letras){
 case "a":case "e":case "i":case "o":case "u":
-console.log("Es vocal")
+console.log("la letra "+ Letras +", es vocal")
 break
 case "z":
 console.log("No es vocal")
