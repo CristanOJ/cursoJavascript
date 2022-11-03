@@ -25,6 +25,9 @@ for (let i=0;i<texto.length;i++){
     if (texto[i]=="a"){
         contadore+=1
     }
+    if (texto[i]=="e"){
+        contadore+=1
+    }
 }
  console.log("tienes",contadore,"vocales a")
 //--------------------------------------------------------------------------------
