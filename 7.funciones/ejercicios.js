@@ -17,11 +17,19 @@ console.log(Contare("Eucalipto"))
 //function calculadora(num1s,num2s,operaciion){return total}
 //calculadora(42,12,'resta')//33
 
-function calc(num1, num2, sign){
-    if (num1 === typeof (10) && num2 === typeof (5) && sign === "+" || "-" || "*" || "/" ){
-        return parseInt.num1, parseInt.sign, parseInt.num2;
+function calculadora(num1,num2,operacion){
+    if(operacion=="resta"){
+        total=num1-num2
+    }
+    if(operacion=="suma"){
+        total=num1+num2
+    }
+    if(operacion=="multiplicación"){
+        total=num1*num2
+    }
+    if(operacion=="division"){
+        total=num1/num2
+    }
+    return total
 }
-}
-console.log(calc(10, 5, "*"))
-
-//console.log(saludo("rafael"," olarte"))
+console.log(calculadora(10,6,"suma"))
