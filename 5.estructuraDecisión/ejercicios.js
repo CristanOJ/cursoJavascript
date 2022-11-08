@@ -44,5 +44,35 @@ console.log("Error number")
 //hacer un programa que me determine si un texto es palimdromo
 //<------Se lee de igual forma de cualquier lado "ADA"
 
+function palindromo(str) {
+  var re = /[^A-Za-z0-9]/g;
+  str = str.toLowerCase().replace(re, '');
+  var len = str.length;
+  for (var i = 0; i < len/2; i++) {
+    if (str[i] !== str[len - 1 - i]) {
+        return false;
+    }
+  }
+  return true;
+ }
+ console.log(palindromo("ojo"))
+
 //hacer un programa que me muestre los n numeros de la serie fibonacci
 1,2,3,5,8,13 //para encontrar el numero siguiente, suma el anterior
+
+const getFibonacciIndex = n => {
+  if (n <= 1) {
+    return n;
+  }
+   
+  let a = 0, b = 1, c = 1, result = 1;
+  
+  while (c < n) {
+    c = a + b;
+    a = b;
+    b = c;
+    result++;
+  }
+  
+  return result;
+}

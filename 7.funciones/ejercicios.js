@@ -1,9 +1,7 @@
 //fuwnción contadora de vocales
 //contadore('eucalipto')//5
 
-
-const contarVocales = palabra => {
-
+function Contare(palabra){
     const vocales = "aeiou";
     let cantidadVocales = 0;
     for (const letra of palabra) {
@@ -12,20 +10,18 @@ const contarVocales = palabra => {
         }
     }
     return cantidadVocales;
-};
-
-
-const contar = "eucalipto";
-const vocales = contarVocales(contar);
-console.log(contar,"tiene", vocales);
+}
+console.log(Contare("Eucalipto"))
 
 
 //function calculadora(num1s,num2s,operaciion){return total}
 //calculadora(42,12,'resta')//33
 
-function calculadora(num1,num2,operacion){
-    let total=(num1)
-    return total
+function calc(num1, num2, sign){
+    if (num1 === typeof (10) && num2 === typeof (5) && sign === "+" || "-" || "*" || "/" ){
+        return parseInt.num1, parseInt.sign, parseInt.num2;
 }
+}
+console.log(calc(10, 5, "*"))
 
 //console.log(saludo("rafael"," olarte"))
