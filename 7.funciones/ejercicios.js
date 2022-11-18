@@ -11,7 +11,7 @@ function Contare(palabra){
     }
     return cantidadVocales;
 }
-console.log(Contare("Eucalipto"))
+console.log(Contare("aaaaaaaaaa"))
 
 
 //function calculadora(num1s,num2s,operaciion){return total}
